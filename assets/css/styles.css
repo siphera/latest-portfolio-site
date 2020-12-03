@@ -6,13 +6,13 @@
   --font-semi: 600;
 }
 
-/*===== Colores =====*/
+/*===== Colours =====*/
 :root{
   --first-color: #0c6464;
   --second-color: #0E2431;
 }
 
-/*===== Fuente y tipografia =====*/
+/*===== typography =====*/
 :root{
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -27,7 +27,7 @@
   }
 }
 
-/*===== Margenes =====*/
+/*===== Margins =====*/
 :root{
   --mb-1: 0.5rem;
   --mb-2: 1rem;
@@ -109,6 +109,7 @@ img{
   width: calc(100% - 2rem);
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
+  /* border: 2px red solid; */
 }
 .l-header{
   width: 100%;
@@ -415,7 +416,7 @@ img{
   }
   .home__img{
     width: 457px;
-    bottom: 15%;
+    bottom: 23%;
   }
 
   .about__container, .skills__container{
@@ -445,6 +446,6 @@ img{
     margin-right: auto;
   }
   .home__img{
-    right: 10%;
+    right: 24%;
   }
 }
