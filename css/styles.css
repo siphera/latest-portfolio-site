@@ -298,8 +298,20 @@ img{
 .skills-js{
   width: 65%;
 }
-.skills-ux{
+.skills-python{
+  width: 55%;
+}
+.skills-mysql{
+  width: 60%;
+}
+.skills-git{
   width: 85%;
+}
+.skills-npm{
+  width: 60%;
+}
+.skills-sass{
+  width: 55%;
 }
 .skills-img{
   border-radius: .5rem;
