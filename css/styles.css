@@ -241,9 +241,9 @@ img{
 .about-subtitle{
   margin-bottom: var(--mb-2);
 }
-.about-img{
+/* .about-img{
   justify-self: center;
-}
+} */
 .about-img img{
   width: 200px;
   border-radius: .5rem;
@@ -449,6 +449,12 @@ img{
   }
   .contact-container{
     justify-items: center;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .about-img{
+    justify-self: center;
   }
 }
 
